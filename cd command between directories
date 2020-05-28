@@ -1,0 +1,11 @@
+The basic cd command does not work if you are trying to change to a directory that is located on  a different drive. 
+Say you are in C:\users\cmdadmin\ directory and want to change to E:\docs directory. If you run ‘cd e:\docs‘ you won’t 
+get any error but you would still be in the same folder. Only when you switch the drive by running the command ‘E:’  you will 
+move to the folder e:\docs. You can avoid this by using /d option with cd command.
+
+
+Cd /D E:\docs
+
+
+
+This command changes to the drive E: and also changes the directory to E:\docs.
